@@ -1,0 +1,11 @@
+1. touch .gitignore
+2. git config --global user.name Krishna
+3. git config --global user.email singhkishu453@gmail.com
+4. git init
+5. git add .
+6. git commit -m "Initial Commit"
+7. git status  //Just to see (Not necessesry)
+8. git remote add origin <ssh url.git> //folder path of your repositry
+9. $ ssh-keygen -t ed25519 -C "your_email@example.com"  //for creating ssh key
+10. cat (path where ssh has been saved) (eg: /c/Users/krishna/.ssh/id_ed25519.pub)
+11. git push origin master
