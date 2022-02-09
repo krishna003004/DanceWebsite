@@ -1,0 +1,49 @@
+extends base.pug
+
+block scripts
+    script(src = '/static/index.js')
+
+block style 
+    style 
+         include ../static/style.css
+
+block content
+    
+                    
+            section#introsection 
+                div Music For Life
+                div.small Eat Sleep Music Repeat 
+
+            section#missionSection 
+                h2 Our Mission
+                div.card  
+                    h3 Music is love 
+                    div.card-box 
+                        div.card-img
+                            img(src="/static/img/log.png")
+                        div.card-content
+                        p This is the coolest music web site
+                div.card  
+                    h3 Music evolves
+                    div.card-box 
+                        div.card-img
+                            img(src="/static/img/logo.png")
+                        div.card-content
+                        p This is the coolest music web site
+                div.card  
+                    h3 Music Grows 
+                    div.card-box 
+                        div.card-img
+                            img(src="/static/img/pogo.png")
+                        div.card-content
+                        p This is the coolest music web site   
+                  
+
+            section#Sponsersection  
+                h2 Our Sponsers
+                div#sponsers 
+                   img(src="/static/img/1.png" , alt="Sponsers image", class="spImages")
+                   img(src="/static/img/2.png",  alt="Sponsers image", class="spImages")
+                   img(src="/static/img/3.png" , alt="Sponsers image", class="spImages")
+                   img(src="/static/img/4.png" , alt="Sponsers image", class="spImages")
+

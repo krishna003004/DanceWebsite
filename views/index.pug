@@ -1,0 +1,59 @@
+doctype html 
+html 
+    head 
+        title Music For Life
+        style 
+            include ../static/style.css 
+        body 
+            nav#navbar 
+                ul 
+                    div#logo
+                        img(src="static/img/pogo.png")
+                        | KMA
+                    li #[a(href='/') Home]
+                    li #[a(href='/') About]
+                    li #[a(href='/') Contact Us]
+                    li #[a(href='/') Class Info]
+                    li #[a(href='/') Services]
+                    
+            section#introsection 
+                div Music For Life
+                div.small Eat Sleep Music Repeat 
+
+            section#missionSection 
+                h2 Our Mission
+                div.card  
+                    h3 Music is love 
+                    div.card-box 
+                        div.card-img
+                            img(src="/static/img/log.png")
+                        div.card-content
+                        p This is the coolest music web site
+                div.card  
+                    h3 Music evolves
+                    div.card-box 
+                        div.card-img
+                            img(src="/static/img/logo.png")
+                        div.card-content
+                        p This is the coolest music web site
+                div.card  
+                    h3 Music Grows 
+                    div.card-box 
+                        div.card-img
+                            img(src="/static/img/pogo.png")
+                        div.card-content
+                        p This is the coolest music web site   
+                  
+
+            section#Sponsersection  
+                h2 Our Sponsers
+                div#sponsers 
+                   img(src="/static/img/1.png" , alt="Sponsers image", class="spImages")
+                   img(src="/static/img/2.png",  alt="Sponsers image", class="spImages")
+                   img(src="/static/img/3.png" , alt="Sponsers image", class="spImages")
+                   img(src="/static/img/4.png" , alt="Sponsers image", class="spImages")
+
+            section#FooterSection 
+                | CopyRights © Krishna Music Academy.com | All rights reserved      
+            script 
+                include ../static/index.js
